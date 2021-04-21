@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #C2b280;
+    color: #004369;
+}
+
+.container {
+    max-width: 720px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    margin: 2rem;
+    color: #f1f1f1;
+    
+
+}
+
+header > p {
+    color: #f1f1f1;
+}
+
+h1 {
+
+}
+
+
+
+p {
+    color: #004369;
+}
+
+
+form {
+    background: beige;
+    margin: 1rem;
+    padding: 2.5rem;
+    
+
+}
+
+#name-label {
+    font-weight: 600;
+}
+
+#email-label {
+    font-weight: 600;
+}
+
+#number-label {
+    font-weight: 600;
+}
+
+label {
+    color: #004369;
+}
+
+.radio-group {
+    display: flex;
+}
+
+.radio-group > label {
+    margin-right: 4rem;
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.form-group > p {
+    font-weight: 600;
+    color: rgb(56, 56, 56);
+}
+
+label {
+    margin-bottom: 0.25rem;
+}
+
+.form-control{
+    height: 2.25rem;
+
+}
+
+.form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px;
+    padding-top: 1rem;
+    
+}
+
+#submit  {
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+  }
